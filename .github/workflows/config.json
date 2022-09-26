@@ -1,0 +1,90 @@
+{
+  "DEBUG": false,
+  "Users": [
+    {
+      "Cookies": [
+        {
+          "Name": "MUSIC_U",
+          "Value": "bda6aa7fcbd2d10fe69c785f80c8a64a9696f3260c332f65bc7b80c0427975c3519e07624a9f0053dffde9bd666cb3a8ba8f4e930541981daad0ed01b9afdb0b507ab5ed70b086a4a0d2166338885bd7"
+        }
+      ]
+    },
+    {
+      "Cookies": [
+        {
+          "Name": "MUSIC_U",
+          "Value": "USER_2_MUSIC_U"
+        }
+      ]
+    }
+  ],
+  "MusicShareConfig": {
+    "MySongID": 1932170955
+  },
+  "EventSendConfig": {
+    "LagConfig": {
+      "RandomLag": true,
+      "LagBetweenSendAndDelete": true,
+      "DefaultLag": 60,
+      "LagMin": 30,
+      "LagMax": 120
+    }
+  },
+  "CommentConfig": {
+    "RepliedComment": [
+      {
+        "MusicID": 1932170955,
+        "CommentID": 123456
+      },
+      {
+        "MusicID": 123456,
+        "CommentID": 123456
+      }
+    ],
+    "LagConfig": {
+      "RandomLag": true,
+      "LagBetweenSendAndDelete": true,
+      "DefaultLag": 60,
+      "LagMin": 30,
+      "LagMax": 120
+    }
+  },
+  "SendMsgConfig": {
+    "UserID": [
+      [
+        5037356371
+      ],
+      [
+        123456
+      ]
+    ],
+    "LagConfig": {
+      "RandomLag": true,
+      "DefaultLag": 10,
+      "LagMin": 5,
+      "LagMax": 20
+    }
+  },
+  "SendMlogConfig": {
+    "PicFolder": "./pic",
+    "MusicIDs": [
+      1322404518,
+      1395512014,
+      1295601353
+    ]
+  },
+  "AutoGetVipGrowthpoint": true,
+  "Content": [
+    "哈哈",
+    "OK"
+  ],
+  "Cron": {
+    "Enabled": false,
+    "Expression": "0 0 1,13 * * ?",
+    "EnableLag": false,
+    "LagConfig": {
+      "LagMin": 600,
+      "LagMax": 3600
+    }
+  }
+}
